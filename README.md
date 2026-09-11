@@ -1,7 +1,7 @@
 # CAPCOM
 ### **Functionality:**
 
-CAPCOM is an assistance tool specifically made for KSP to help you in-game. It:
+CAPCOM is an assistance mod specifically made for KSP to help you in-game. It:
 - runs a specific list of local language models (AI that can run locally on your machine without internet and limits) with KSP info.
 - contains every single data about your KSP directory, but CANNOT modify them, so you can ask it anything if there are issues/needed stuff.
 
