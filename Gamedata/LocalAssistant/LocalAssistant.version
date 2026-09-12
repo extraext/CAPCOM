@@ -1,7 +1,7 @@
 {
   "NAME": "LocalAssistant",
   "URL": "https://raw.githubusercontent.com/extraext/LocalAssistant/main/Gamedata/LocalAssistant/LocalAssistant.version",
-  "DOWNLOAD": "https://spacedock.info/mod/4553/LocalAssistant",
+  "DOWNLOAD": "https://github.com/extraext/LocalAssistant/releases/tag/v1.0",
   "VERSION": {
     "MAJOR": 1,
     "MINOR": 0,
