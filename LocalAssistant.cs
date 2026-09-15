@@ -13,9 +13,6 @@ using Contracts;
 
 namespace LocalAssistant
 {
-    // =========================================================================
-    // 1. SERVER LIFECYCLE MANAGER & PROCESS SUPERVISOR
-    // =========================================================================
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
     public class LocalAssistantPlugin : MonoBehaviour
     {
@@ -117,10 +114,6 @@ namespace LocalAssistant
             KillOrphanedServers();
         }
     }
-
-    // =========================================================================
-    // 2. MOD INSPECTOR
-    // =========================================================================
     public static class ModInspector
     {
         public static string CachedModSummary = "";
@@ -190,10 +183,6 @@ namespace LocalAssistant
             return "Active installed community modification.";
         }
     }
-
-    // =========================================================================
-    // 3. PERSISTENT CHAT ENGINE (BASE64 LOSSLESS CONFIGNODE STORAGE)
-    // =========================================================================
     public class ChatMessageData
     {
         public string Sender = "";
